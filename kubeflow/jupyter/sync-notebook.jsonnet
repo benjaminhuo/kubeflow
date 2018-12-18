@@ -26,7 +26,7 @@ function(request) {
             value: "true",
           },
         ],
-        image: "gcr.io/kubeflow-images-public/tensorflow-1.10.1-notebook-cpu:v0.3.0",
+        image: "qingcloud/tensorflow-notebook-cpu:1.12.0",
         imagePullPolicy: "IfNotPresent",
         name: "notebook",
         ports: [
